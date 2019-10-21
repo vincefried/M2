@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>AudioPlayingWorker Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/AudioPlayingWorker" class="dashAnchor"></a>
+    <a title="AudioPlayingWorker Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">M2 Documentation</a></p>
+        <p class="header-right"><a href="https://github.com/vincefried"><img src="../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">M2 Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        AudioPlayingWorker Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../CustomViews.html">CustomViews</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/RoundedButton.html">RoundedButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RoundedTextfield.html">RoundedTextfield</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EmptyDataView.html">EmptyDataView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MessagesNavigationItem.html">MessagesNavigationItem</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/UITableView.html">UITableView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UITextView.html">UITextView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UITextField.html">UITextField</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/JSONDecoder.html">JSONDecoder</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../ViewModel (Base).html">ViewModel (Base)</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/ListViewModel.html">ListViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DifferentiableObservableListViewModel.html">DifferentiableObservableListViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CellViewModel.html">CellViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/EmptyDataViewModel.html">EmptyDataViewModel</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../ViewModel.html">ViewModel</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/FriendsRequestListViewModel.html">FriendsRequestListViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FriendsRequestCellViewModel.html">FriendsRequestCellViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/FriendsRequestsEmptyDataViewModel.html">FriendsRequestsEmptyDataViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AddUserViewModel.html">AddUserViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChatsListViewModel.html">ChatsListViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChatsCellViewModel.html">ChatsCellViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ChatsEmptyDataViewModel.html">ChatsEmptyDataViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MessagesListViewModel.html">MessagesListViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MessageCellViewModel.html">MessageCellViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/MessageCellType.html">MessageCellType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TextMessageCellViewModel.html">TextMessageCellViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VoiceMemoCellViewModel.html">VoiceMemoCellViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VoiceMemoCellViewModel/CellState.html">– CellState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/IntroViewModel.html">IntroViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CreateAccountIntroViewModel.html">CreateAccountIntroViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SignInIntroViewModel.html">SignInIntroViewModel</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Model.html">Model</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/Chat.html">Chat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Message.html">Message</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/User.html">User</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TextMessage.html">TextMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VoiceMemoMessage.html">VoiceMemoMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Sound.html">Sound</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Model (Backend).html">Model (Backend)</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/LoginResponse.html">LoginResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CheckUsernameResponse.html">CheckUsernameResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/FriendsRequestResponse.html">FriendsRequestResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/FriendsRequestResponse/FriendsRequestState.html">– FriendsRequestState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/FriendsRequestResponse/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GetChatsResponse.html">GetChatsResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GetMemoResponse.html">GetMemoResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GetMemoResponse/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GetActiveChatResponse.html">GetActiveChatResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GetActiveChatResponse/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Endpoint.html">Endpoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/UserEndpoint.html">UserEndpoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ChatEndpoint.html">ChatEndpoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ChatRequestEndpoint.html">ChatRequestEndpoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/FriendsRequestsEndpoint.html">FriendsRequestsEndpoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/VoiceMemoEndpoint.html">VoiceMemoEndpoint</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Model (Stream).html">Model (Stream)</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/StreamCommand.html">StreamCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/IncomingStreamable.html">IncomingStreamable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/OutgoingStreamable.html">OutgoingStreamable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/FriendsRequestChangeType.html">FriendsRequestChangeType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/IncomingMessageStreamCommand.html">IncomingMessageStreamCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/IncomingTypingStreamCommand.html">IncomingTypingStreamCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/IncomingVoiceMessageStreamCommand.html">IncomingVoiceMessageStreamCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/IncomingChangedActiveStatusStreamCommand.html">IncomingChangedActiveStatusStreamCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/IncomingChangedFriendsRequestsStreamCommand.html">IncomingChangedFriendsRequestsStreamCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OutgoingMessageStreamCommand.html">OutgoingMessageStreamCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OutgoingLoginStreamCommand.html">OutgoingLoginStreamCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OutgoingTypingStreamCommand.html">OutgoingTypingStreamCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OutgoingVoiceMemoStreamCommand.html">OutgoingVoiceMemoStreamCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OutgoingChangedActiveStatusStreamCommand.html">OutgoingChangedActiveStatusStreamCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OutgoingChangedFriendsRequestsStreamCommand.html">OutgoingChangedFriendsRequestsStreamCommand</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Workers.html">Workers</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/UsersWorker.html">UsersWorker</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BackendWorker.html">BackendWorker</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BackendWorker/HostType.html">– HostType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PersistanceWorker.html">PersistanceWorker</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/StreamWorker.html">StreamWorker</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/StreamWorker/Host.html">– Host</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AudioRecordingWorker.html">AudioRecordingWorker</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AudioPlayingWorker.html">AudioPlayingWorker</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SpeechRecognitionWorker.html">SpeechRecognitionWorker</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Observable.html">Observable</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Observable.html#/s:2M27Closurea">Closure</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Observable.html#/s:2M28Observera">Observer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Observable.html">Observable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Observable.html#/s:2M221DifferentiableClosurea">DifferentiableClosure</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Observable.html#/s:2M222DifferentiableObservera">DifferentiableObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DifferentiableObservable.html">DifferentiableObservable</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Providers.html">Providers</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/ChatsProvider.html">ChatsProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MessagesProvider.html">MessagesProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FriendsRequestsProvider.html">FriendsRequestsProvider</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Cells.html">Cells</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/ChatTableViewCell.html">ChatTableViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SenderTableViewCell.html">SenderTableViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ReceiverTableViewCell.html">ReceiverTableViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FriendsRequestTableViewCell.html">FriendsRequestTableViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VoiceMemoSenderTableViewCell.html">VoiceMemoSenderTableViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VoiceMemoReceiverTableViewCell.html">VoiceMemoReceiverTableViewCell</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../ViewControllers.html">ViewControllers</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/IntroViewController.html">IntroViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LoginViewController.html">LoginViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChatsViewController.html">ChatsViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MessagesViewController.html">MessagesViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AddUserViewController.html">AddUserViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FriendsRequestsViewController.html">FriendsRequestsViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Delegates.html">Delegates</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/AddUserViewModelDelegate.html">AddUserViewModelDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AudioPlayingWorkerDelegate.html">AudioPlayingWorkerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BackendWorkerDelegate.html">BackendWorkerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ChatsListViewModelDelegate.html">ChatsListViewModelDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/EmptyDataViewDelegate.html">EmptyDataViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/IntroViewModelDelegate.html">IntroViewModelDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MessagesListViewModelDelegate.html">MessagesListViewModelDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MessagesProviderDelegate.html">MessagesProviderDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/StreamWorkerDelegate.html">StreamWorkerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/VoiceMemoCellViewModelDelegate.html">VoiceMemoCellViewModelDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/VoiceMemoTableViewCellDelegate.html">VoiceMemoTableViewCellDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other Classes.html">Other Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AppDelegate.html">AppDelegate</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>AudioPlayingWorker</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">AudioPlayingWorker</span></code></pre>
+
+                </div>
+              </div>
+            <p>A worker class for playing audio.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:2M218AudioPlayingWorkerC6player33_16CCEF4FE00B6AEB20EEFC61AE4973B5LLSo13AVAudioPlayerCvp"></a>
+                    <a name="//apple_ref/swift/Property/player" class="dashAnchor"></a>
+                    <a class="token" href="#/s:2M218AudioPlayingWorkerC6player33_16CCEF4FE00B6AEB20EEFC61AE4973B5LLSo13AVAudioPlayerCvp">player</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An instance of an AVAudioPlayer for playing audio.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">let</span> <span class="nv">player</span><span class="p">:</span> <span class="kt">AVAudioPlayer</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:2M218AudioPlayingWorkerC11displayLink33_16CCEF4FE00B6AEB20EEFC61AE4973B5LLSo09CADisplayF0CSgvp"></a>
+                    <a name="//apple_ref/swift/Property/displayLink" class="dashAnchor"></a>
+                    <a class="token" href="#/s:2M218AudioPlayingWorkerC11displayLink33_16CCEF4FE00B6AEB20EEFC61AE4973B5LLSo09CADisplayF0CSgvp">displayLink</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An instance of a CADisplayLink for linking to CADisplay for animating duration changes.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">var</span> <span class="nv">displayLink</span><span class="p">:</span> <span class="kt">CADisplayLink</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:2M218AudioPlayingWorkerC8delegateAA0bcD8Delegate_pSgvp"></a>
+                    <a name="//apple_ref/swift/Property/delegate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:2M218AudioPlayingWorkerC8delegateAA0bcD8Delegate_pSgvp">delegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A delegate for the AudioPlayingWorker.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">weak</span> <span class="k">var</span> <span class="nv">delegate</span><span class="p">:</span> <span class="kt"><a href="../Protocols/AudioPlayingWorkerDelegate.html">AudioPlayingWorkerDelegate</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:2M218AudioPlayingWorkerC02isC0Sbvp"></a>
+                    <a name="//apple_ref/swift/Property/isPlaying" class="dashAnchor"></a>
+                    <a class="token" href="#/s:2M218AudioPlayingWorkerC02isC0Sbvp">isPlaying</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>If the player is currently playing audio.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">isPlaying</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:2M218AudioPlayingWorkerC11currentTimeSdvp"></a>
+                    <a name="//apple_ref/swift/Property/currentTime" class="dashAnchor"></a>
+                    <a class="token" href="#/s:2M218AudioPlayingWorkerC11currentTimeSdvp">currentTime</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The current time of the audio player.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">currentTime</span><span class="p">:</span> <span class="kt">TimeInterval</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:2M218AudioPlayingWorkerC8durationSdvp"></a>
+                    <a name="//apple_ref/swift/Property/duration" class="dashAnchor"></a>
+                    <a class="token" href="#/s:2M218AudioPlayingWorkerC8durationSdvp">duration</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The current duration of the audio player.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">duration</span><span class="p">:</span> <span class="kt">TimeInterval</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:2M218AudioPlayingWorkerC3url10Foundation3URLVSgvp"></a>
+                    <a name="//apple_ref/swift/Property/url" class="dashAnchor"></a>
+                    <a class="token" href="#/s:2M218AudioPlayingWorkerC3url10Foundation3URLVSgvp">url</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The file url of the audio file that is currently being played.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">url</span><span class="p">:</span> <span class="kt">URL</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:2M218AudioPlayingWorkerC3urlACSg10Foundation3URLV_tcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(url:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:2M218AudioPlayingWorkerC3urlACSg10Foundation3URLV_tcfc">init(url:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initializes the AudioPlayingWorker with a file url.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="p">?(</span><span class="nv">url</span><span class="p">:</span> <span class="kt">URL</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>url</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The file url to be initialized with.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:2M218AudioPlayingWorkerC5soundACSgAA5SoundO_tcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(sound:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:2M218AudioPlayingWorkerC5soundACSgAA5SoundO_tcfc">init(sound:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Convenience initializer for being initialized with a specific sound.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">convenience</span> <span class="nf">init</span><span class="p">?(</span><span class="nv">sound</span><span class="p">:</span> <span class="kt"><a href="../Enums/Sound.html">Sound</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>sound</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The sound to be initialized with.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:2M218AudioPlayingWorkerC23startMonitoringDurationyyF"></a>
+                    <a name="//apple_ref/swift/Method/startMonitoringDuration()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:2M218AudioPlayingWorkerC23startMonitoringDurationyyF">startMonitoringDuration()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Adds itself to the display link for animating duration changes.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">startMonitoringDuration</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:2M218AudioPlayingWorkerC22stopMonitoringDurationyyF"></a>
+                    <a name="//apple_ref/swift/Method/stopMonitoringDuration()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:2M218AudioPlayingWorkerC22stopMonitoringDurationyyF">stopMonitoringDuration()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Removes itself from the display link for animating duration changes.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">stopMonitoringDuration</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:2M218AudioPlayingWorkerC15durationChanged33_16CCEF4FE00B6AEB20EEFC61AE4973B5LLyyF"></a>
+                    <a name="//apple_ref/swift/Method/durationChanged()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:2M218AudioPlayingWorkerC15durationChanged33_16CCEF4FE00B6AEB20EEFC61AE4973B5LLyyF">durationChanged()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Gets called by the display link.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">private</span> <span class="kd">func</span> <span class="nf">durationChanged</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:2M218AudioPlayingWorkerC4playyyF"></a>
+                    <a name="//apple_ref/swift/Method/play()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:2M218AudioPlayingWorkerC4playyyF">play()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Plays audio from the initialized audio file.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">play</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:2M218AudioPlayingWorkerC5pauseyyF"></a>
+                    <a name="//apple_ref/swift/Method/pause()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:2M218AudioPlayingWorkerC5pauseyyF">pause()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Pauses currently being played audio.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">pause</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:2M218AudioPlayingWorkerC4stopyyF"></a>
+                    <a name="//apple_ref/swift/Method/stop()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:2M218AudioPlayingWorkerC4stopyyF">stop()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Stops playing audio.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">stop</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2019 <a class="link" href="https://www.vincent-friedrich.de" target="_blank" rel="external">Vincent Friedrich</a>. All rights reserved. (Last updated: 2019-08-14)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.10.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

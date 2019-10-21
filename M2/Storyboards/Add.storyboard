@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JCw-VO-kxD">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="QUG-gS-ZNN">
+            <objects>
+                <navigationController storyboardIdentifier="AddUserNavigationController" id="JCw-VO-kxD" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="ayy-vg-DTw">
+                        <rect key="frame" x="0.0" y="20" width="375" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" name="primary"/>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="32"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="zXs-0Z-JLJ" kind="relationship" relationship="rootViewController" id="xaS-Yy-w5O"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IfF-sh-12o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-916" y="52"/>
+        </scene>
+        <!--Nutzer hinzufügen-->
+        <scene sceneID="pEN-5d-L1w">
+            <objects>
+                <viewController storyboardIdentifier="AddUserViewController" id="zXs-0Z-JLJ" customClass="AddUserViewController" customModule="M2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="efQ-K1-iWy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Intro-bg" translatesAutoresizingMaskIntoConstraints="NO" id="B5a-r4-bms">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User found" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EHH-q7-b85">
+                                <rect key="frame" x="152.5" y="298.5" width="70" height="18.5"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                                <color key="textColor" name="correct"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="johndoe123" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="a6P-RQ-Vmr" customClass="RoundedTextfield" customModule="M2" customModuleProvider="target">
+                                <rect key="frame" x="16" y="216.5" width="343" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="uWH-rS-lqn"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" name="textFieldBorder"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="icon" value="search"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="textfieldDidChange:" destination="zXs-0Z-JLJ" eventType="editingChanged" id="syQ-md-POl"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nach Nutzer suchen" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v0h-aF-AVV">
+                                <rect key="frame" x="16" y="148" width="343" height="36.5"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WJf-Fu-m6e" customClass="RoundedButton" customModule="M2" customModuleProvider="target">
+                                <rect key="frame" x="126" y="349" width="123" height="50"/>
+                                <color key="backgroundColor" name="complementary"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="BGE-Br-cKQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <state key="normal" title="Anfrage senden">
+                                    <color key="titleColor" name="primary"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="sendButtonTapped:" destination="zXs-0Z-JLJ" eventType="touchUpInside" id="Qor-G4-V0L"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="EHH-q7-b85" firstAttribute="centerX" secondItem="efQ-K1-iWy" secondAttribute="centerX" id="3TH-JB-DIr"/>
+                            <constraint firstItem="EHH-q7-b85" firstAttribute="top" secondItem="a6P-RQ-Vmr" secondAttribute="bottom" constant="32" id="6Q8-Gq-d2i"/>
+                            <constraint firstItem="a6P-RQ-Vmr" firstAttribute="leading" secondItem="bGb-af-awd" secondAttribute="leading" constant="16" id="8kT-dV-SRY"/>
+                            <constraint firstItem="v0h-aF-AVV" firstAttribute="leading" secondItem="bGb-af-awd" secondAttribute="leading" constant="16" id="8rU-8t-rQT"/>
+                            <constraint firstItem="v0h-aF-AVV" firstAttribute="top" secondItem="bGb-af-awd" secondAttribute="top" constant="32" id="A1I-sZ-8cO"/>
+                            <constraint firstItem="bGb-af-awd" firstAttribute="trailing" secondItem="a6P-RQ-Vmr" secondAttribute="trailing" constant="16" id="EKl-Co-qaG"/>
+                            <constraint firstItem="bGb-af-awd" firstAttribute="trailing" secondItem="v0h-aF-AVV" secondAttribute="trailing" constant="16" id="Iaa-yx-ZBe"/>
+                            <constraint firstItem="bGb-af-awd" firstAttribute="trailing" secondItem="B5a-r4-bms" secondAttribute="trailing" id="PVC-cl-RA3"/>
+                            <constraint firstItem="B5a-r4-bms" firstAttribute="leading" secondItem="bGb-af-awd" secondAttribute="leading" id="Sx7-w2-ewt"/>
+                            <constraint firstItem="WJf-Fu-m6e" firstAttribute="centerX" secondItem="efQ-K1-iWy" secondAttribute="centerX" id="UM2-sP-rKJ"/>
+                            <constraint firstItem="WJf-Fu-m6e" firstAttribute="top" secondItem="EHH-q7-b85" secondAttribute="bottom" constant="32" id="jTO-mb-A27"/>
+                            <constraint firstItem="B5a-r4-bms" firstAttribute="top" secondItem="efQ-K1-iWy" secondAttribute="top" id="wNh-jz-Jl6"/>
+                            <constraint firstItem="a6P-RQ-Vmr" firstAttribute="top" secondItem="v0h-aF-AVV" secondAttribute="bottom" constant="32" id="xlT-iZ-Js5"/>
+                            <constraint firstAttribute="bottom" secondItem="B5a-r4-bms" secondAttribute="bottom" id="xu8-aw-eT2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bGb-af-awd"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Nutzer hinzufügen" id="7dm-be-l45"/>
+                    <connections>
+                        <outlet property="searchTextfield" destination="a6P-RQ-Vmr" id="Mji-Aw-BHI"/>
+                        <outlet property="sendButton" destination="WJf-Fu-m6e" id="4bs-mj-dza"/>
+                        <outlet property="titleLabel" destination="v0h-aF-AVV" id="R4S-iA-IP6"/>
+                        <outlet property="userExistsLabel" destination="EHH-q7-b85" id="OcX-i7-toh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hwz-gC-c1J" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-113" y="52"/>
+        </scene>
+        <!--Anfragen-->
+        <scene sceneID="RQf-Qq-QZL">
+            <objects>
+                <tableViewController storyboardIdentifier="FriendsRequestsViewController" extendedLayoutIncludesOpaqueBars="YES" id="WiR-nt-cGq" customClass="FriendsRequestsViewController" customModule="M2" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="R5Q-4c-pmB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" name="background"/>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="WiR-nt-cGq" id="k7T-sH-e0g"/>
+                            <outlet property="delegate" destination="WiR-nt-cGq" id="gKm-ou-pDc"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Anfragen" id="jO7-Kn-9pC"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ltd-hB-JVK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-114" y="764"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ZEc-ga-7iM">
+            <objects>
+                <navigationController storyboardIdentifier="FriendsRequestsNavigationController" id="X9E-KQ-eKO" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" largeTitles="YES" id="LIh-b2-Ns8">
+                        <rect key="frame" x="0.0" y="20" width="375" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" name="primary"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="32"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="WiR-nt-cGq" kind="relationship" relationship="rootViewController" id="otM-yo-Avh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mNC-d4-HdH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-944" y="765"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Intro-bg" width="1125" height="2436"/>
+        <image name="search" width="30" height="30"/>
+        <namedColor name="background">
+            <color red="0.97647058823529409" green="0.97647058823529409" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="complementary">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="correct">
+            <color red="0.43137254901960786" green="1" blue="0.47058823529411764" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="primary">
+            <color red="0.20392156862745098" green="0.73333333333333328" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="textFieldBorder">
+            <color red="0.86274509803921573" green="0.86274509803921573" blue="0.86274509803921573" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

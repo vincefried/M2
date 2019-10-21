@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="59" id="KGk-i7-Jjw" customClass="VoiceMemoSenderTableViewCell" customModule="M2" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="58.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uTy-PK-Eul">
+                        <rect key="frame" x="50" y="4" width="220" height="50.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sprachnachricht von dir" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I8L-s7-yAg">
+                                <rect key="frame" x="16" y="16" width="188" height="18.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                <color key="textColor" name="complementary"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="primary"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="I8L-s7-yAg" secondAttribute="trailing" constant="16" id="C41-c8-nC3"/>
+                            <constraint firstAttribute="bottom" secondItem="I8L-s7-yAg" secondAttribute="bottom" constant="16" id="FKo-Vs-bnI"/>
+                            <constraint firstItem="I8L-s7-yAg" firstAttribute="leading" secondItem="uTy-PK-Eul" secondAttribute="leading" constant="16" id="FpK-dJ-WFT"/>
+                            <constraint firstItem="I8L-s7-yAg" firstAttribute="top" secondItem="uTy-PK-Eul" secondAttribute="top" constant="16" id="x9L-KF-hhz"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12:38" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vlz-2v-1Sf">
+                        <rect key="frame" x="278" y="21.5" width="34" height="16"/>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="12"/>
+                        <color key="textColor" name="extraLightGray"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="vlz-2v-1Sf" firstAttribute="leading" secondItem="uTy-PK-Eul" secondAttribute="trailing" constant="8" id="0Im-PE-EGz"/>
+                    <constraint firstItem="uTy-PK-Eul" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="50" id="22V-J1-JoP"/>
+                    <constraint firstAttribute="trailing" secondItem="vlz-2v-1Sf" secondAttribute="trailing" constant="8" id="6J7-7V-ySU"/>
+                    <constraint firstAttribute="trailing" secondItem="uTy-PK-Eul" secondAttribute="trailing" constant="50" id="8Ib-UD-XTe"/>
+                    <constraint firstAttribute="bottom" secondItem="uTy-PK-Eul" secondAttribute="bottom" constant="4" id="Ui3-Lz-4EC"/>
+                    <constraint firstItem="vlz-2v-1Sf" firstAttribute="centerY" secondItem="uTy-PK-Eul" secondAttribute="centerY" id="kS4-8D-cP7"/>
+                    <constraint firstItem="uTy-PK-Eul" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="nA8-Im-IgO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="view" destination="uTy-PK-Eul" id="z4D-xI-BZl"/>
+            </connections>
+            <point key="canvasLocation" x="44.927536231884062" y="11.71875"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="complementary">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="extraLightGray">
+            <color red="0.78431372549019607" green="0.78431372549019607" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="primary">
+            <color red="0.20392156862745098" green="0.73333333333333328" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

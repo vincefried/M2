@@ -1,0 +1,136 @@
+module: M2
+author: Vincent Friedrich
+title: M2 Documentation
+author_url: https://www.vincent-friedrich.de
+github_url: https://github.com/vincefried
+min_acl: private
+hide_documentation_coverage: true
+theme: apple
+use_safe_filenames: true
+
+custom_categories:
+  - name: CustomViews
+    children:
+    - RoundedButton
+    - RoundedTextfield
+    - EmptyDataView
+    - MessagesNavigationItem
+  - name: Extensions
+    children:
+    - UITableView
+    - UITextView
+    - UITextField
+    - JSONDecoder
+  - name: ViewModel (Base)
+    children:
+    - ListViewModel
+    - DifferentiableObservableListViewModel
+    - CellViewModel
+    - EmptyDataViewModel
+  - name: ViewModel
+    children:
+    - FriendsRequestListViewModel
+    - FriendsRequestCellViewModel
+    - FriendsRequestsEmptyDataViewModel
+    - AddUserViewModel
+    - ChatsListViewModel
+    - ChatsCellViewModel
+    - ChatsEmptyDataViewModel
+    - MessagesListViewModel
+    - MessageCellViewModel
+    - MessageCellType
+    - TextMessageCellViewModel
+    - VoiceMemoCellViewModel
+    - IntroViewModel
+    - CreateAccountIntroViewModel
+    - SignInIntroViewModel
+  - name: Model
+    children:
+    - Chat
+    - Message
+    - User
+    - TextMessage
+    - VoiceMemoMessage
+    - Sound
+  - name: Model (Backend)
+    children:
+    - LoginResponse
+    - CheckUsernameResponse
+    - FriendsRequestResponse
+    - GetChatsResponse
+    - GetMemoResponse
+    - GetActiveChatResponse
+    - Endpoint
+    - UserEndpoint
+    - ChatEndpoint
+    - ChatRequestEndpoint
+    - FriendsRequestsEndpoint
+    - VoiceMemoEndpoint
+  - name: Model (Stream)
+    children:
+    - StreamCommand
+    - IncomingStreamable
+    - OutgoingStreamable
+    - FriendsRequestChangeType
+    - IncomingMessageStreamCommand
+    - IncomingTypingStreamCommand
+    - IncomingVoiceMessageStreamCommand
+    - IncomingChangedActiveStatusStreamCommand
+    - IncomingChangedFriendsRequestsStreamCommand
+    - OutgoingMessageStreamCommand
+    - OutgoingLoginStreamCommand
+    - OutgoingTypingStreamCommand
+    - OutgoingVoiceMemoStreamCommand
+    - OutgoingChangedActiveStatusStreamCommand
+    - OutgoingChangedFriendsRequestsStreamCommand
+  - name: Workers
+    children:
+    - UsersWorker
+    - BackendWorker
+    - PersistanceWorker
+    - StreamWorker
+    - AudioRecordingWorker
+    - AudioPlayingWorker
+    - SpeechRecognitionWorker
+  - name: Observable
+    children:
+    - Closure
+    - Observer
+    - Observable
+    - DifferentiableClosure
+    - DifferentiableObserver
+    - DifferentiableObservable
+  - name: Providers
+    children:
+    - ChatsProvider
+    - MessagesProvider
+    - FriendsRequestsProvider
+  - name: Cells
+    children:
+    - ChatTableViewCell
+    - SenderTableViewCell
+    - ReceiverTableViewCell
+    - FriendsRequestTableViewCell
+    - VoiceMemoSenderTableViewCell
+    - VoiceMemoReceiverTableViewCell
+  - name: ViewControllers
+    children:
+    - IntroViewController
+    - LoginViewController
+    - ChatsViewController
+    - MessagesViewController
+    - AddUserViewController
+    - FriendsRequestsViewController
+  - name: Delegates
+    children:
+    - AddUserViewModelDelegate
+    - AudioPlayingWorkerDelegate
+    - BackendWorkerDelegate
+    - ChatsListViewModelDelegate
+    - EmptyDataViewDelegate
+    - IntroViewModelDelegate
+    - MessagesListViewModelDelegate
+    - MessagesProviderDelegate
+    - StreamWorkerDelegate
+    - VoiceMemoCellViewModelDelegate
+    - VoiceMemoTableViewCellDelegate

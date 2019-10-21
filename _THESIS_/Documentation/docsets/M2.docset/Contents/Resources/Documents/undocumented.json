@@ -1,0 +1,1265 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/CustomViews/EmptyDataView.swift",
+      "line": 30,
+      "symbol": "EmptyDataView.init(frame:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/CustomViews/EmptyDataView.swift",
+      "line": 35,
+      "symbol": "EmptyDataView.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/CustomViews/MessagesNavigationItem.swift",
+      "line": 32,
+      "symbol": "MessagesNavigationItem.title",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/CustomViews/MessagesNavigationItem.swift",
+      "line": 40,
+      "symbol": "MessagesNavigationItem.init(title:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/CustomViews/MessagesNavigationItem.swift",
+      "line": 45,
+      "symbol": "MessagesNavigationItem.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/CustomViews/RoundedButton.swift",
+      "line": 22,
+      "symbol": "RoundedButton.init(frame:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/CustomViews/RoundedButton.swift",
+      "line": 27,
+      "symbol": "RoundedButton.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/CustomViews/RoundedButton.swift",
+      "line": 32,
+      "symbol": "RoundedButton.prepareForInterfaceBuilder()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/CustomViews/RoundedButton.swift",
+      "line": 36,
+      "symbol": "RoundedButton.buttonType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/CustomViews/RoundedTextfield.swift",
+      "line": 44,
+      "symbol": "RoundedTextfield.init(frame:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/CustomViews/RoundedTextfield.swift",
+      "line": 49,
+      "symbol": "RoundedTextfield.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/CustomViews/RoundedTextfield.swift",
+      "line": 54,
+      "symbol": "RoundedTextfield.prepareForInterfaceBuilder()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/Endpoints/ChatEndpoint.swift",
+      "line": 16,
+      "symbol": "ChatEndpoint.getChats(requester:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/Endpoints/ChatEndpoint.swift",
+      "line": 18,
+      "symbol": "ChatEndpoint.route",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/Endpoints/ChatEndpoint.swift",
+      "line": 22,
+      "symbol": "ChatEndpoint.urlString",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/Endpoints/ChatEndpoint.swift",
+      "line": 31,
+      "symbol": "ChatEndpoint.method",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/Endpoints/ChatEndpoint.swift",
+      "line": 38,
+      "symbol": "ChatEndpoint.parameters",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/Endpoints/ChatRequestEndpoint.swift",
+      "line": 17,
+      "symbol": "ChatRequestEndpoint.setActiveChat(requester:receiver:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/Endpoints/ChatRequestEndpoint.swift",
+      "line": 18,
+      "symbol": "ChatRequestEndpoint.getActiveChat(username:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/Endpoints/ChatRequestEndpoint.swift",
+      "line": 20,
+      "symbol": "ChatRequestEndpoint.route",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/Endpoints/ChatRequestEndpoint.swift",
+      "line": 24,
+      "symbol": "ChatRequestEndpoint.urlString",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/Endpoints/ChatRequestEndpoint.swift",
+      "line": 35,
+      "symbol": "ChatRequestEndpoint.method",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/Endpoints/ChatRequestEndpoint.swift",
+      "line": 44,
+      "symbol": "ChatRequestEndpoint.parameters",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/Endpoints/FriendsRequestsEndpoint.swift",
+      "line": 19,
+      "symbol": "FriendsRequestsEndpoint.getFriendsRequests(requester:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/Endpoints/FriendsRequestsEndpoint.swift",
+      "line": 20,
+      "symbol": "FriendsRequestsEndpoint.sendFriendsRequests(requester:receiver:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/Endpoints/FriendsRequestsEndpoint.swift",
+      "line": 21,
+      "symbol": "FriendsRequestsEndpoint.answerFriendsRequests(id:requester:state:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/Endpoints/FriendsRequestsEndpoint.swift",
+      "line": 22,
+      "symbol": "FriendsRequestsEndpoint.deleteFriendsRequest(id:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/Endpoints/FriendsRequestsEndpoint.swift",
+      "line": 24,
+      "symbol": "FriendsRequestsEndpoint.urlString",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/Endpoints/FriendsRequestsEndpoint.swift",
+      "line": 39,
+      "symbol": "FriendsRequestsEndpoint.method",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/Endpoints/FriendsRequestsEndpoint.swift",
+      "line": 48,
+      "symbol": "FriendsRequestsEndpoint.parameters",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/Endpoints/UserEndpoint.swift",
+      "line": 21,
+      "symbol": "UserEndpoint.login(username:password:deviceToken:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/Endpoints/UserEndpoint.swift",
+      "line": 22,
+      "symbol": "UserEndpoint.register(id:username:password:deviceToken:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/Endpoints/UserEndpoint.swift",
+      "line": 23,
+      "symbol": "UserEndpoint.updateDeviceToken(username:deviceToken:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/Endpoints/UserEndpoint.swift",
+      "line": 24,
+      "symbol": "UserEndpoint.logout(username:password:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/Endpoints/UserEndpoint.swift",
+      "line": 25,
+      "symbol": "UserEndpoint.checkUsername(username:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/Endpoints/UserEndpoint.swift",
+      "line": 26,
+      "symbol": "UserEndpoint.deleteUser(id:username:password:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/Endpoints/UserEndpoint.swift",
+      "line": 28,
+      "symbol": "UserEndpoint.route",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/Endpoints/UserEndpoint.swift",
+      "line": 32,
+      "symbol": "UserEndpoint.urlString",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/Endpoints/UserEndpoint.swift",
+      "line": 51,
+      "symbol": "UserEndpoint.method",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/Endpoints/UserEndpoint.swift",
+      "line": 60,
+      "symbol": "UserEndpoint.parameters",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/Endpoints/VoiceMemoEndpoint.swift",
+      "line": 19,
+      "symbol": "VoiceMemoEndpoint.getMemo(id:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/Endpoints/VoiceMemoEndpoint.swift",
+      "line": 20,
+      "symbol": "VoiceMemoEndpoint.uploadMemo(id:owner:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/Endpoints/VoiceMemoEndpoint.swift",
+      "line": 21,
+      "symbol": "VoiceMemoEndpoint.deleteMemo(id:owner:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/Endpoints/VoiceMemoEndpoint.swift",
+      "line": 22,
+      "symbol": "VoiceMemoEndpoint.downloadMemo(id:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/Endpoints/VoiceMemoEndpoint.swift",
+      "line": 24,
+      "symbol": "VoiceMemoEndpoint.route",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/Endpoints/VoiceMemoEndpoint.swift",
+      "line": 28,
+      "symbol": "VoiceMemoEndpoint.urlString",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/Endpoints/VoiceMemoEndpoint.swift",
+      "line": 50,
+      "symbol": "VoiceMemoEndpoint.method",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/Endpoints/VoiceMemoEndpoint.swift",
+      "line": 59,
+      "symbol": "VoiceMemoEndpoint.parameters",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/FriendsRequestResponse.swift",
+      "line": 20,
+      "symbol": "FriendsRequestResponse.FriendsRequestState.unanswered",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/FriendsRequestResponse.swift",
+      "line": 21,
+      "symbol": "FriendsRequestResponse.FriendsRequestState.accepted",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/FriendsRequestResponse.swift",
+      "line": 22,
+      "symbol": "FriendsRequestResponse.FriendsRequestState.declined",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/FriendsRequestResponse.swift",
+      "line": 33,
+      "symbol": "FriendsRequestResponse.CodingKeys.id",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/FriendsRequestResponse.swift",
+      "line": 34,
+      "symbol": "FriendsRequestResponse.CodingKeys.requester",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/FriendsRequestResponse.swift",
+      "line": 35,
+      "symbol": "FriendsRequestResponse.CodingKeys.receiver",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/FriendsRequestResponse.swift",
+      "line": 36,
+      "symbol": "FriendsRequestResponse.CodingKeys.dateCreated",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/FriendsRequestResponse.swift",
+      "line": 37,
+      "symbol": "FriendsRequestResponse.CodingKeys.state",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/FriendsRequestResponse.swift",
+      "line": 55,
+      "symbol": "FriendsRequestResponse.differenceIdentifier",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/FriendsRequestResponse.swift",
+      "line": 59,
+      "symbol": "FriendsRequestResponse.isContentEqual(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/GetActiveChatResponse.swift",
+      "line": 17,
+      "symbol": "GetActiveChatResponse.CodingKeys.activeChat",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/GetMemoResponse.swift",
+      "line": 19,
+      "symbol": "GetMemoResponse.CodingKeys.messageId",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/GetMemoResponse.swift",
+      "line": 20,
+      "symbol": "GetMemoResponse.CodingKeys.owner",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Backend/GetMemoResponse.swift",
+      "line": 21,
+      "symbol": "GetMemoResponse.CodingKeys.filename",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Chat.swift",
+      "line": 31,
+      "symbol": "Chat.init(id:thisUser:otherUser:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Chat.swift",
+      "line": 124,
+      "symbol": "Chat.differenceIdentifier",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Chat.swift",
+      "line": 128,
+      "symbol": "Chat.isContentEqual(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Message.swift",
+      "line": 26,
+      "symbol": "Message.init(id:sender:receiver:sentDate:isEditing:didCancel:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Sound.swift",
+      "line": 19,
+      "symbol": "Sound.messageEditing",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Sound.swift",
+      "line": 20,
+      "symbol": "Sound.message",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Sound.swift",
+      "line": 21,
+      "symbol": "Sound.notification",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Sound.swift",
+      "line": 22,
+      "symbol": "Sound.offline",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Sound.swift",
+      "line": 23,
+      "symbol": "Sound.online",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Stream/FriendsRequestChangeType.swift",
+      "line": 18,
+      "symbol": "FriendsRequestChangeType.accepted",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Stream/FriendsRequestChangeType.swift",
+      "line": 19,
+      "symbol": "FriendsRequestChangeType.declined",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Stream/FriendsRequestChangeType.swift",
+      "line": 20,
+      "symbol": "FriendsRequestChangeType.sent",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Stream/FriendsRequestChangeType.swift",
+      "line": 21,
+      "symbol": "FriendsRequestChangeType.deleted",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Stream/Outgoing/OutgoingChangedActiveStatusStreamCommand.swift",
+      "line": 17,
+      "symbol": "OutgoingChangedActiveStatusStreamCommand.init(requester:receiver:isOnline:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Stream/Outgoing/OutgoingChangedFriendsRequestsCommand.swift",
+      "line": 17,
+      "symbol": "OutgoingChangedFriendsRequestsStreamCommand.init(requester:receiver:changeType:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Stream/Outgoing/OutgoingLoginStreamCommand.swift",
+      "line": 17,
+      "symbol": "OutgoingLoginStreamCommand.init(user:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Stream/Outgoing/OutgoingMessageStreamCommand.swift",
+      "line": 17,
+      "symbol": "OutgoingMessageStreamCommand.init(message:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Stream/Outgoing/OutgoingTypingStreamCommand.swift",
+      "line": 17,
+      "symbol": "OutgoingTypingStreamCommand.init(message:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Stream/Outgoing/OutgoingVoiceMemoStreamCommand.swift",
+      "line": 17,
+      "symbol": "OutgoingVoiceMemoStreamCommand.init(message:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Stream/Streamable.swift",
+      "line": 20,
+      "symbol": "StreamCommand.changedActive",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Stream/Streamable.swift",
+      "line": 20,
+      "symbol": "StreamCommand.changedFriends",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Stream/Streamable.swift",
+      "line": 20,
+      "symbol": "StreamCommand.login",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Stream/Streamable.swift",
+      "line": 20,
+      "symbol": "StreamCommand.message",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Stream/Streamable.swift",
+      "line": 20,
+      "symbol": "StreamCommand.typing",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/Stream/Streamable.swift",
+      "line": 20,
+      "symbol": "StreamCommand.voicememo",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/TextMessage.swift",
+      "line": 16,
+      "symbol": "TextMessage.init(id:sender:receiver:text:sentDate:isEditing:didCancel:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Model/User.swift",
+      "line": 32,
+      "symbol": "User.init(id:username:password:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Observable/DifferentiableObservable.swift",
+      "line": 25,
+      "symbol": "DifferentiableObservable.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Observable/Observable.swift",
+      "line": 22,
+      "symbol": "Observable.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Providers/ChatsProvider.swift",
+      "line": 24,
+      "symbol": "ChatsProvider.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Providers/ChatsProvider.swift",
+      "line": 34,
+      "symbol": "ChatsProvider.deinit",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Providers/FriendsRequestsProvider.swift",
+      "line": 16,
+      "symbol": "FriendsRequestsProvider.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Providers/MessagesProvider.swift",
+      "line": 105,
+      "symbol": "MessagesProvider.init(chat:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Providers/MessagesProvider.swift",
+      "line": 115,
+      "symbol": "MessagesProvider.deinit",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Supporting Files/AppDelegate.swift",
+      "line": 17,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Supporting Files/AppDelegate.swift",
+      "line": 19,
+      "symbol": "AppDelegate.window",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Supporting Files/AppDelegate.swift",
+      "line": 21,
+      "symbol": "AppDelegate.application(_:didFinishLaunchingWithOptions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Supporting Files/AppDelegate.swift",
+      "line": 30,
+      "symbol": "AppDelegate.applicationWillResignActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Supporting Files/AppDelegate.swift",
+      "line": 34,
+      "symbol": "AppDelegate.applicationWillEnterForeground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Supporting Files/AppDelegate.swift",
+      "line": 38,
+      "symbol": "AppDelegate.applicationDidBecomeActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Supporting Files/AppDelegate.swift",
+      "line": 49,
+      "symbol": "AppDelegate.application(_:didRegisterForRemoteNotificationsWithDeviceToken:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Supporting Files/AppDelegate.swift",
+      "line": 56,
+      "symbol": "AppDelegate.application(_:didFailToRegisterForRemoteNotificationsWithError:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Supporting Files/AppDelegate.swift",
+      "line": 60,
+      "symbol": "AppDelegate.application(_:didReceiveRemoteNotification:fetchCompletionHandler:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Supporting Files/AppDelegate.swift",
+      "line": 162,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewControllers/AddUserViewController.swift",
+      "line": 25,
+      "symbol": "AddUserViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewControllers/Cells/ChatTableViewCell.swift",
+      "line": 32,
+      "symbol": "ChatTableViewCell.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewControllers/Cells/ChatTableViewCell.swift",
+      "line": 66,
+      "symbol": "ChatTableViewCell.setHighlighted(_:animated:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewControllers/Cells/ChatTableViewCell.swift",
+      "line": 71,
+      "symbol": "ChatTableViewCell.setSelected(_:animated:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewControllers/Cells/FriendsRequestTableViewCell.swift",
+      "line": 32,
+      "symbol": "FriendsRequestTableViewCell.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewControllers/Cells/FriendsRequestTableViewCell.swift",
+      "line": 75,
+      "symbol": "FriendsRequestTableViewCell.setHighlighted(_:animated:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewControllers/Cells/FriendsRequestTableViewCell.swift",
+      "line": 80,
+      "symbol": "FriendsRequestTableViewCell.setSelected(_:animated:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewControllers/Cells/ReceiverTableViewCell.swift",
+      "line": 30,
+      "symbol": "ReceiverTableViewCell.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewControllers/Cells/SenderTableViewCell.swift",
+      "line": 28,
+      "symbol": "SenderTableViewCell.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewControllers/Cells/VoiceMemoReceiverTableViewCell.swift",
+      "line": 48,
+      "symbol": "VoiceMemoReceiverTableViewCell.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewControllers/Cells/VoiceMemoReceiverTableViewCell.swift",
+      "line": 55,
+      "symbol": "VoiceMemoReceiverTableViewCell.setSelected(_:animated:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewControllers/Cells/VoiceMemoSenderTableViewCell.swift",
+      "line": 16,
+      "symbol": "VoiceMemoSenderTableViewCell.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewControllers/ChatsViewController.swift",
+      "line": 27,
+      "symbol": "ChatsViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewControllers/ChatsViewController.swift",
+      "line": 43,
+      "symbol": "ChatsViewController.deinit",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewControllers/ChatsViewController.swift",
+      "line": 182,
+      "symbol": "ChatsViewController.numberOfSections(in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewControllers/ChatsViewController.swift",
+      "line": 186,
+      "symbol": "ChatsViewController.tableView(_:numberOfRowsInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewControllers/ChatsViewController.swift",
+      "line": 190,
+      "symbol": "ChatsViewController.tableView(_:cellForRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewControllers/ChatsViewController.swift",
+      "line": 200,
+      "symbol": "ChatsViewController.tableView(_:didSelectRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewControllers/ChatsViewController.swift",
+      "line": 219,
+      "symbol": "ChatsViewController.tableView(_:canEditRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewControllers/ChatsViewController.swift",
+      "line": 223,
+      "symbol": "ChatsViewController.tableView(_:commit:forRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewControllers/ChatsViewController.swift",
+      "line": 234,
+      "symbol": "ChatsViewController.title(forEmptyDataSet:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewControllers/ChatsViewController.swift",
+      "line": 239,
+      "symbol": "ChatsViewController.customView(forEmptyDataSet:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewControllers/ChatsViewController.swift",
+      "line": 260,
+      "symbol": "ChatsViewController.emptyDataSetShouldAllowScroll(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewControllers/FriendsRequestsViewController.swift",
+      "line": 19,
+      "symbol": "FriendsRequestsViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewControllers/FriendsRequestsViewController.swift",
+      "line": 91,
+      "symbol": "FriendsRequestsViewController.numberOfSections(in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewControllers/FriendsRequestsViewController.swift",
+      "line": 95,
+      "symbol": "FriendsRequestsViewController.tableView(_:numberOfRowsInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewControllers/FriendsRequestsViewController.swift",
+      "line": 99,
+      "symbol": "FriendsRequestsViewController.tableView(_:cellForRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewControllers/FriendsRequestsViewController.swift",
+      "line": 108,
+      "symbol": "FriendsRequestsViewController.title(forEmptyDataSet:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewControllers/FriendsRequestsViewController.swift",
+      "line": 112,
+      "symbol": "FriendsRequestsViewController.customView(forEmptyDataSet:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewControllers/FriendsRequestsViewController.swift",
+      "line": 122,
+      "symbol": "FriendsRequestsViewController.emptyDataSetShouldAllowScroll(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewControllers/IntroViewController.swift",
+      "line": 14,
+      "symbol": "IntroViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewControllers/LoginViewController.swift",
+      "line": 29,
+      "symbol": "LoginViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewControllers/MessagesViewController.swift",
+      "line": 37,
+      "symbol": "MessagesViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewControllers/MessagesViewController.swift",
+      "line": 49,
+      "symbol": "MessagesViewController.viewWillAppear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewControllers/MessagesViewController.swift",
+      "line": 79,
+      "symbol": "MessagesViewController.viewWillDisappear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewControllers/MessagesViewController.swift",
+      "line": 293,
+      "symbol": "MessagesViewController.numberOfSections(in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewControllers/MessagesViewController.swift",
+      "line": 297,
+      "symbol": "MessagesViewController.tableView(_:numberOfRowsInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewControllers/MessagesViewController.swift",
+      "line": 301,
+      "symbol": "MessagesViewController.tableView(_:cellForRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewControllers/MessagesViewController.swift",
+      "line": 341,
+      "symbol": "MessagesViewController.gestureRecognizer(_:shouldReceive:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewControllers/MessagesViewController.swift",
+      "line": 349,
+      "symbol": "MessagesViewController.textViewDidChange(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewControllers/MessagesViewController.swift",
+      "line": 412,
+      "symbol": "MessagesViewController.image(forEmptyDataSet:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewControllers/MessagesViewController.swift",
+      "line": 416,
+      "symbol": "MessagesViewController.description(forEmptyDataSet:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewModel/Add User/AddUserViewModel.swift",
+      "line": 43,
+      "symbol": "AddUserViewModel.init(friendsRequestsProvider:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewModel/Base/CellViewModel.swift",
+      "line": 13,
+      "symbol": "CellViewModel.data",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewModel/Base/CellViewModel.swift",
+      "line": 15,
+      "symbol": "CellViewModel.init(data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewModel/Base/DifferentiableObservableListViewModel.swift",
+      "line": 21,
+      "symbol": "DifferentiableObservableListViewModel.init(provider:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewModel/Chats/ChatsCellViewModel.swift",
+      "line": 25,
+      "symbol": "ChatsCellViewModel.init(data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewModel/Chats/ChatsListViewModel.swift",
+      "line": 28,
+      "symbol": "ChatsListViewModel.init(chatsProvider:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewModel/Chats/ChatsListViewModel.swift",
+      "line": 42,
+      "symbol": "ChatsListViewModel.deinit",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewModel/Friends Requests/FriendsRequestCellViewModel.swift",
+      "line": 23,
+      "symbol": "FriendsRequestCellViewModel.init(data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewModel/Friends Requests/FriendsRequestListViewModel.swift",
+      "line": 16,
+      "symbol": "FriendsRequestListViewModel.init(friendsRequestsProvider:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewModel/Messages/MessageCellViewModel.swift",
+      "line": 17,
+      "symbol": "MessageCellType.editing",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewModel/Messages/MessageCellViewModel.swift",
+      "line": 17,
+      "symbol": "MessageCellType.receiver",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewModel/Messages/MessageCellViewModel.swift",
+      "line": 17,
+      "symbol": "MessageCellType.sender",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewModel/Messages/MessageCellViewModel.swift",
+      "line": 25,
+      "symbol": "MessageCellViewModel.init(cellType:data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewModel/Messages/MessagesListViewModel.swift",
+      "line": 96,
+      "symbol": "MessagesListViewModel.messagesProvider",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewModel/Messages/MessagesListViewModel.swift",
+      "line": 98,
+      "symbol": "MessagesListViewModel.init(messagesProvider:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewModel/Messages/TextMessageCellViewModel.swift",
+      "line": 26,
+      "symbol": "TextMessageCellViewModel.init(data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewModel/Messages/VoiceMemoCellViewModel.swift",
+      "line": 39,
+      "symbol": "VoiceMemoCellViewModel.CellState.disabled",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewModel/Messages/VoiceMemoCellViewModel.swift",
+      "line": 39,
+      "symbol": "VoiceMemoCellViewModel.CellState.loadingText",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewModel/Messages/VoiceMemoCellViewModel.swift",
+      "line": 39,
+      "symbol": "VoiceMemoCellViewModel.CellState.memoAndText",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewModel/Messages/VoiceMemoCellViewModel.swift",
+      "line": 39,
+      "symbol": "VoiceMemoCellViewModel.CellState.memoOnly",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/ViewModel/Messages/VoiceMemoCellViewModel.swift",
+      "line": 111,
+      "symbol": "VoiceMemoCellViewModel.init(data:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Workers/AudioRecordingWorker.swift",
+      "line": 20,
+      "symbol": "AudioRecordingWorker.init(id:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Workers/BackendWorker.swift",
+      "line": 31,
+      "symbol": "BackendWorker.HostType.local",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Workers/BackendWorker.swift",
+      "line": 32,
+      "symbol": "BackendWorker.HostType.production",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Workers/BackendWorker.swift",
+      "line": 33,
+      "symbol": "BackendWorker.HostType.hetzner",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Workers/BackendWorker.swift",
+      "line": 62,
+      "symbol": "BackendWorker.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Workers/SpeechRecognitionWorker.swift",
+      "line": 27,
+      "symbol": "SpeechRecognitionWorker.init(fileURL:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Workers/StreamWorker.swift",
+      "line": 56,
+      "symbol": "StreamWorker.Host.local",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Workers/StreamWorker.swift",
+      "line": 57,
+      "symbol": "StreamWorker.Host.hetzner",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Workers/StreamWorker.swift",
+      "line": 58,
+      "symbol": "StreamWorker.Host.production",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Workers/StreamWorker.swift",
+      "line": 83,
+      "symbol": "StreamWorker.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2/M2/Workers/StreamWorker.swift",
+      "line": 232,
+      "symbol": "StreamWorker.stream(_:handle:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/vincefried/Programmdateien/Coding/HAW/Bachelorarbeit/Real-Time-Chats Prototypes/M2"
+}

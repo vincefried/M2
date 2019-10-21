@@ -1,0 +1,6 @@
+framework module NGSBadgeBarButton {
+  umbrella header "NGSBadgeBarButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

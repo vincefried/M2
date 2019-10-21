@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BackendWorker Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/BackendWorker" class="dashAnchor"></a>
+    <a title="BackendWorker Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">M2 Documentation</a></p>
+        <p class="header-right"><a href="https://github.com/vincefried"><img src="../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">M2 Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        BackendWorker Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../CustomViews.html">CustomViews</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/RoundedButton.html">RoundedButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RoundedTextfield.html">RoundedTextfield</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EmptyDataView.html">EmptyDataView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MessagesNavigationItem.html">MessagesNavigationItem</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/UITableView.html">UITableView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UITextView.html">UITextView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UITextField.html">UITextField</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/JSONDecoder.html">JSONDecoder</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../ViewModel (Base).html">ViewModel (Base)</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/ListViewModel.html">ListViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DifferentiableObservableListViewModel.html">DifferentiableObservableListViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CellViewModel.html">CellViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/EmptyDataViewModel.html">EmptyDataViewModel</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../ViewModel.html">ViewModel</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/FriendsRequestListViewModel.html">FriendsRequestListViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FriendsRequestCellViewModel.html">FriendsRequestCellViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/FriendsRequestsEmptyDataViewModel.html">FriendsRequestsEmptyDataViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AddUserViewModel.html">AddUserViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChatsListViewModel.html">ChatsListViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChatsCellViewModel.html">ChatsCellViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ChatsEmptyDataViewModel.html">ChatsEmptyDataViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MessagesListViewModel.html">MessagesListViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MessageCellViewModel.html">MessageCellViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/MessageCellType.html">MessageCellType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TextMessageCellViewModel.html">TextMessageCellViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VoiceMemoCellViewModel.html">VoiceMemoCellViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VoiceMemoCellViewModel/CellState.html">– CellState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/IntroViewModel.html">IntroViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CreateAccountIntroViewModel.html">CreateAccountIntroViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SignInIntroViewModel.html">SignInIntroViewModel</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Model.html">Model</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/Chat.html">Chat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Message.html">Message</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/User.html">User</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TextMessage.html">TextMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VoiceMemoMessage.html">VoiceMemoMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Sound.html">Sound</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Model (Backend).html">Model (Backend)</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/LoginResponse.html">LoginResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CheckUsernameResponse.html">CheckUsernameResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/FriendsRequestResponse.html">FriendsRequestResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/FriendsRequestResponse/FriendsRequestState.html">– FriendsRequestState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/FriendsRequestResponse/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GetChatsResponse.html">GetChatsResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GetMemoResponse.html">GetMemoResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GetMemoResponse/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GetActiveChatResponse.html">GetActiveChatResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GetActiveChatResponse/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Endpoint.html">Endpoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/UserEndpoint.html">UserEndpoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ChatEndpoint.html">ChatEndpoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ChatRequestEndpoint.html">ChatRequestEndpoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/FriendsRequestsEndpoint.html">FriendsRequestsEndpoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/VoiceMemoEndpoint.html">VoiceMemoEndpoint</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Model (Stream).html">Model (Stream)</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/StreamCommand.html">StreamCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/IncomingStreamable.html">IncomingStreamable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/OutgoingStreamable.html">OutgoingStreamable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/FriendsRequestChangeType.html">FriendsRequestChangeType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/IncomingMessageStreamCommand.html">IncomingMessageStreamCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/IncomingTypingStreamCommand.html">IncomingTypingStreamCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/IncomingVoiceMessageStreamCommand.html">IncomingVoiceMessageStreamCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/IncomingChangedActiveStatusStreamCommand.html">IncomingChangedActiveStatusStreamCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/IncomingChangedFriendsRequestsStreamCommand.html">IncomingChangedFriendsRequestsStreamCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OutgoingMessageStreamCommand.html">OutgoingMessageStreamCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OutgoingLoginStreamCommand.html">OutgoingLoginStreamCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OutgoingTypingStreamCommand.html">OutgoingTypingStreamCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OutgoingVoiceMemoStreamCommand.html">OutgoingVoiceMemoStreamCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OutgoingChangedActiveStatusStreamCommand.html">OutgoingChangedActiveStatusStreamCommand</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OutgoingChangedFriendsRequestsStreamCommand.html">OutgoingChangedFriendsRequestsStreamCommand</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Workers.html">Workers</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/UsersWorker.html">UsersWorker</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BackendWorker.html">BackendWorker</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BackendWorker/HostType.html">– HostType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PersistanceWorker.html">PersistanceWorker</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/StreamWorker.html">StreamWorker</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/StreamWorker/Host.html">– Host</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AudioRecordingWorker.html">AudioRecordingWorker</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AudioPlayingWorker.html">AudioPlayingWorker</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SpeechRecognitionWorker.html">SpeechRecognitionWorker</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Observable.html">Observable</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Observable.html#/s:2M27Closurea">Closure</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Observable.html#/s:2M28Observera">Observer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Observable.html">Observable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Observable.html#/s:2M221DifferentiableClosurea">DifferentiableClosure</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Observable.html#/s:2M222DifferentiableObservera">DifferentiableObserver</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DifferentiableObservable.html">DifferentiableObservable</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Providers.html">Providers</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/ChatsProvider.html">ChatsProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MessagesProvider.html">MessagesProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FriendsRequestsProvider.html">FriendsRequestsProvider</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Cells.html">Cells</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/ChatTableViewCell.html">ChatTableViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SenderTableViewCell.html">SenderTableViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ReceiverTableViewCell.html">ReceiverTableViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FriendsRequestTableViewCell.html">FriendsRequestTableViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VoiceMemoSenderTableViewCell.html">VoiceMemoSenderTableViewCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VoiceMemoReceiverTableViewCell.html">VoiceMemoReceiverTableViewCell</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../ViewControllers.html">ViewControllers</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/IntroViewController.html">IntroViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LoginViewController.html">LoginViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChatsViewController.html">ChatsViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MessagesViewController.html">MessagesViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AddUserViewController.html">AddUserViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FriendsRequestsViewController.html">FriendsRequestsViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Delegates.html">Delegates</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/AddUserViewModelDelegate.html">AddUserViewModelDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AudioPlayingWorkerDelegate.html">AudioPlayingWorkerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BackendWorkerDelegate.html">BackendWorkerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ChatsListViewModelDelegate.html">ChatsListViewModelDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/EmptyDataViewDelegate.html">EmptyDataViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/IntroViewModelDelegate.html">IntroViewModelDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MessagesListViewModelDelegate.html">MessagesListViewModelDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MessagesProviderDelegate.html">MessagesProviderDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/StreamWorkerDelegate.html">StreamWorkerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/VoiceMemoCellViewModelDelegate.html">VoiceMemoCellViewModelDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/VoiceMemoTableViewCellDelegate.html">VoiceMemoTableViewCellDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other Classes.html">Other Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AppDelegate.html">AppDelegate</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>BackendWorker</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">BackendWorker</span></code></pre>
+
+                </div>
+              </div>
+            <p>A worker class for sending HTTP-requests to the backend.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:2M213BackendWorkerC6sharedACvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/shared" class="dashAnchor"></a>
+                    <a class="token" href="#/s:2M213BackendWorkerC6sharedACvpZ">shared</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Shared instance for singleton usage.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">shared</span><span class="p">:</span> <span class="kt">BackendWorker</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:2M213BackendWorkerC8HostTypeO"></a>
+                    <a name="//apple_ref/swift/Enum/HostType" class="dashAnchor"></a>
+                    <a class="token" href="#/s:2M213BackendWorkerC8HostTypeO">HostType</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A type for representing a host.</p>
+
+<ul>
+<li>local: localhost</li>
+<li>hetzner: production server without domain</li>
+<li>production: future production server with domain, not yet available</li>
+</ul>
+
+                        <a href="../Classes/BackendWorker/HostType.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">HostType</span> <span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:2M213BackendWorkerC8hostTypeAC04HostE0OvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/hostType" class="dashAnchor"></a>
+                    <a class="token" href="#/s:2M213BackendWorkerC8hostTypeAC04HostE0OvpZ">hostType</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The host type</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">hostType</span><span class="p">:</span> <span class="kt">BackendWorker</span><span class="o">.</span><span class="kt"><a href="../Classes/BackendWorker/HostType.html">HostType</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:2M213BackendWorkerC10isSignedInSbvp"></a>
+                    <a name="//apple_ref/swift/Property/isSignedIn" class="dashAnchor"></a>
+                    <a class="token" href="#/s:2M213BackendWorkerC10isSignedInSbvp">isSignedIn</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>If the user is currently signed in.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">isSignedIn</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:2M213BackendWorkerC11isReachableSbvp"></a>
+                    <a name="//apple_ref/swift/Property/isReachable" class="dashAnchor"></a>
+                    <a class="token" href="#/s:2M213BackendWorkerC11isReachableSbvp">isReachable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>If the backend is reachable</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">isReachable</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:2M213BackendWorkerC8delegateAA0bC8Delegate_pSgvp"></a>
+                    <a name="//apple_ref/swift/Property/delegate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:2M213BackendWorkerC8delegateAA0bC8Delegate_pSgvp">delegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A delegate for the BackendWorker</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">weak</span> <span class="k">var</span> <span class="nv">delegate</span><span class="p">:</span> <span class="kt"><a href="../Protocols/BackendWorkerDelegate.html">BackendWorkerDelegate</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:2M213BackendWorkerC11currentUserAA0E0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/currentUser" class="dashAnchor"></a>
+                    <a class="token" href="#/s:2M213BackendWorkerC11currentUserAA0E0VSgvp">currentUser</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The currently logged in user.
+No user is logged in, if nil.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">currentUser</span><span class="p">:</span> <span class="kt"><a href="../Structs/User.html">User</a></span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:2M213BackendWorkerCACycfc"></a>
+                    <a name="//apple_ref/swift/Method/init()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:2M213BackendWorkerCACycfc">init()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:2M213BackendWorkerC8download_8filename15progressClosure10completionyAA8Endpoint_p_SSySo10NSProgressCcSgys6ResultOy10Foundation4DataVs5Error_pGcSgtF"></a>
+                    <a name="//apple_ref/swift/Method/download(_:filename:progressClosure:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:2M213BackendWorkerC8download_8filename15progressClosure10completionyAA8Endpoint_p_SSySo10NSProgressCcSgys6ResultOy10Foundation4DataVs5Error_pGcSgtF">download(_:filename:progressClosure:completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Downloads a file from a given endpoint using Alamofire.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">download</span><span class="p">(</span><span class="n">_</span> <span class="nv">endpoint</span><span class="p">:</span> <span class="kt"><a href="../Protocols/Endpoint.html">Endpoint</a></span><span class="p">,</span>
+              <span class="nv">filename</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
+              <span class="nv">progressClosure</span><span class="p">:</span> <span class="p">((</span><span class="kt">Progress</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+              <span class="nv">completion</span><span class="p">:</span> <span class="p">((</span><span class="n">_</span> <span class="nv">result</span><span class="p">:</span> <span class="kt">Swift</span><span class="o">.</span><span class="kt">Result</span><span class="o">&lt;</span><span class="kt">Data</span><span class="p">,</span> <span class="kt">Error</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>endpoint</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The endpoint to download from.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>filename</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The file name of the file to download.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>progressClosure</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A closure for a download progress.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Gets called if the download completed.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:2M213BackendWorkerC6upload8endpoint8fileName8mimeType4data15progressClosure10completionyAA8Endpoint_p_S2S10Foundation4DataVySo10NSProgressCcSgys6ResultOyyts5Error_pGcSgtF"></a>
+                    <a name="//apple_ref/swift/Method/upload(endpoint:fileName:mimeType:data:progressClosure:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:2M213BackendWorkerC6upload8endpoint8fileName8mimeType4data15progressClosure10completionyAA8Endpoint_p_S2S10Foundation4DataVySo10NSProgressCcSgys6ResultOyyts5Error_pGcSgtF">upload(endpoint:fileName:mimeType:data:progressClosure:completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Uploads a file to a given endpoint using Alamofire.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">upload</span><span class="p">(</span><span class="nv">endpoint</span><span class="p">:</span> <span class="kt"><a href="../Protocols/Endpoint.html">Endpoint</a></span><span class="p">,</span>
+            <span class="nv">fileName</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
+            <span class="nv">mimeType</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span>
+            <span class="nv">data</span><span class="p">:</span> <span class="kt">Data</span><span class="p">,</span>
+            <span class="nv">progressClosure</span><span class="p">:</span> <span class="p">((</span><span class="kt">Progress</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+            <span class="nv">completion</span><span class="p">:</span> <span class="p">((</span><span class="n">_</span> <span class="nv">result</span><span class="p">:</span> <span class="kt">Swift</span><span class="o">.</span><span class="kt">Result</span><span class="o">&lt;</span><span class="kt">Void</span><span class="p">,</span> <span class="kt">Error</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>endpoint</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The endpoint to upload to.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>fileName</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The file name of the file to upload.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>mimeType</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The mime type of the file to upload.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>data</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The file to upload as data representation.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>progressClosure</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A closure for an upload progress.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Gets called if the upload completed.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:2M213BackendWorkerC7request_10completionyAA8Endpoint_p_ys6ResultOyxs5Error_pGcSgtSeRzSERzlF"></a>
+                    <a name="//apple_ref/swift/Method/request(_:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:2M213BackendWorkerC7request_10completionyAA8Endpoint_p_ys6ResultOyxs5Error_pGcSgtSeRzSERzlF">request(_:completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sends a HTTP-request to a given endpoint.
+The http-method and parameters are taken from the given endpoint.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="n">request</span><span class="o">&lt;</span><span class="kt">T</span><span class="p">:</span> <span class="kt">Codable</span><span class="o">&gt;</span><span class="p">(</span><span class="n">_</span> <span class="nv">endpoint</span><span class="p">:</span> <span class="kt"><a href="../Protocols/Endpoint.html">Endpoint</a></span><span class="p">,</span>
+                         <span class="nv">completion</span><span class="p">:</span> <span class="p">((</span><span class="n">_</span> <span class="nv">result</span><span class="p">:</span> <span class="kt">Swift</span><span class="o">.</span><span class="kt">Result</span><span class="o">&lt;</span><span class="kt">T</span><span class="p">,</span> <span class="kt">Error</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>endpoint</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The endpoint to send the request to.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Gets called if the request completed.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2019 <a class="link" href="https://www.vincent-friedrich.de" target="_blank" rel="external">Vincent Friedrich</a>. All rights reserved. (Last updated: 2019-08-14)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.10.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
